@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Jaiswal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.win.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?famili=montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.navigation{
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/dark-background_1048-3848.jpg");
+    position: fixed;
+}
+.leftnav{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar .leftnav .flex li a{
+    cursor: pointer;
+}
+.logo img{
+    width: 90px;
+
+}
+.navbar{
+    width: 85%;
+}
+.navigation ul li{
+    color: #fff;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-right: 40px;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.togglebtn{
+    display: none;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #0094da;
+}
+/**
+.sidebar{
+    background-color: black;
+    width: 50vh;
+    font-family: 'Bacasime Antique', serif;
+    height: 150vh;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 25px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(247, 245, 245);
+}
+.logo{
+     display: flex;
+     margin-top: 30px;
+}
+**/
+
+.main{
+   background-image: url("https://wallpaperaccess.com/full/785668.jpg");
+    width: 100%;
+    margin-top: -118px;
+   
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.infocontainer{
+    height: 80vh;
+    width: 80vw;
+    margin: 118px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+.divinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+
+
+.social-media a{
+        list-style: none;
+        text-decoration: none;
+        margin-left: -40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 2.2rem;
+        height: 2.2rem;
+        background: transparent;
+        border: .15rem solid rgb(19, 206, 253);
+        border-radius: 50%;
+        font-size: 2rem;
+        color: rgb(34, 248, 255);
+        margin: 2.4rem 1.5rem 2.4rem 0;
+        transition: .3s ease;
+    }
+    .social-media a:hover{
+        background-color:  rgb(46, 208, 248);
+        color: rgb(49, 48, 48);
+        box-shadow: 0 0 1rem rgb(195, 217, 224);
+    }
+
+
+.buttons{
+   margin-top: 34px;
+
+}
+.btn{
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: rgb(238, 225, 225);
+    background-color: rgb(62, 62, 236);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 2rem rgb(0, 0, 247);
+}
+.btn:hover{
+    background-color: rgb(240, 237, 237);
+    color: rgb(62, 62, 236);
+    
+}
+.hello{
+    font-size: 40px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+     font-size: 60px;
+     font-weight: bold;
+     font-family: 'Bacasime Antique', serif;
+     color: whitesmoke;
+}
+
+.divpic img{
+    height: 65vh;
+    width: 57vh;
+    margin-top: 137px;
+ 
+    border-radius: 50px;
+}
+
+
+/** contact me **/
+.maincontact{
+    background-image: url("https://www.cloud4c.com/vn/sites/vn/files/2022-07/cloud4c-company-contact-1Desktop.jpg");
+    width: 100%;
+    height: 500px;
+    margin-top: -98px;
+}
+
+.contactform{
+    font-family: 'Bacasime Antique', serif; 
+    padding: 0 34px;
+    padding-top: 100px;
+
+
+}
+.contactform h1{
+    text-align: center;
+    padding: 12px 0;
+    color: white;
+    margin-top: -100px;
+    border: 2px solid rgb(189, 176, 176);
+    border-radius: 40px;
+}
+.contactform form{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.contactform form div input{
+    width: 46vh;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+   color: rgb(197, 194, 194);
+   border: 1px solid rgb(95, 76, 76);
+}
+.contactform form .mb-3 label{
+    font-size: 1.3rem;
+}
+#emailHelp{
+    font-size: 14px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 14px;
+    margin: 3px 0;
+
+}
+.btn-sm{
+    margin-left: 175px;
+    margin-top: 30px;
+}
+
+/** about **/
+.mainabout{
+   background-image: url("https://img.freepik.com/free-photo/dark-background_1048-3848.jpg");
+    width: 100%;
+    height: 1100px;
+    margin-top: -50px;
+}
+.mainabout h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    border: 1px solid rgb(207, 185, 185);
+    color: whitesmoke;
+    
+}
+.mainabout h3{
+    margin-left: 140px;
+    font-size: 2.3rem;
+}
+.mainabout .abouttext p{
+    color: white;
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+    
+}
+.intro{
+    height: 75vh;
+    width: 76vw;
+    margin: 98px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skillcontainer{
+    padding: 12px;
+    margin-top: -200px;
+}
+.skillitem{
+   margin: 15px;
+}
+.skill p{
+    text-align: end;
+}
+
+.intro .aboutimg img{
+    background-color: rgb(214, 204, 191);
+    height: 60vh;
+    width: 45vh;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.abouttext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.abouttext b{
+    color: orange;
+}
+/**
+
+
+/** post **/
+
+.post{
+   padding: 43px;
+}
+
+/** footer **/
+
+.footer{
+    background-color:black;
+    color: white;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .row{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 25px;
+   display: flex;
+  
+}
+
+.footer .row .rowthird{
+    color: orange;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    
+}
+.footer .row .rowthird p{
+    margin: 5px;
+}
+.footer .row .rowthird i{
+    color: orange;
+}
+.footer .row .rowsecond a{
+   display: flex;
+   align-items: center;
+   margin-bottom: -4px;
+}
+
+/** projects **/
+
+
+.mainproject{
+    width: 100%;
+    height: 750px;
+}
+.mainproject h2{
+    text-align: center;
+    border: 2px solid rgb(210, 238, 50);
+    border-radius: 15px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+.box{
+    width: 23%;
+    height: 300px;
+    background-color: rgb(241, 228, 228);
+    border-radius: 20px;
+    
+}
+.box:hover{
+    background-color: rgb(141, 231, 201);
+    border: 3px solid rgb(157, 219, 41);
+    box-shadow: 0 0 1rem rgb(141, 231, 201);
+}
+.box h3{
+    text-align: center;
+    margin-top: 4px;
+    font-size: 1.5rem;
+}
+.box p{
+    padding: 10px;
+    padding-left: 20px;
+    color: black;
+}
+.box li{
+    text-decoration: underline;
+    list-style: none;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.box li:hover{
+    color: red;
+    font-size: 1.2rem;
+}
+.unbox{
+    width: 90%;
+    height: 150px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 14px;
+    border-radius: 20px;
+    
+}
+.unbox:hover{
+    border: 2px solid rgb(255, 145, 0);
+}
+.project{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+/** media **/
+@media only screen and (max-width: 768px){
+    .navigation{
+        position: fixed;
+    }
+    .navbar{
+        width: 100%;
+        display: none;
+    }
+    .leftnav{
+        width: 100%;
+        justify-content: flex-start;
+       
+
+    }
+    .navigation ul li{
+        margin-right: 30px;
+       font-size: 1.8rem;
+       color: rgb(250, 231, 231);
+       width: 100%;
+       text-align: center;
+       padding: 10px;
+    }
+    .togglebtn{
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+        margin-top: 18px;
+        right: 20px;
+        position: absolute;
+        cursor: pointer;
+    }
+
+
+
+
+    
+    .main{
+        background-image: url("https://wallpaperaccess.com/full/785668.jpg");
+        width: 100%;
+       
+        margin-top: -118px;
+    
+    }
+    .container{
+        width: 100%;
+        position: relative;
+    }
+    .infocontainer{
+        height: 90vh;
+        width: 90vw;
+        margin: 118px auto;
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+    .divinfo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 45%;
+        
+    }
+    
+    
+    .buttons{
+       margin-top: 30px;
+       margin-left: -40px;
+    
+    }
+    .btn{
+        padding: 10px 15px;
+        border-radius: 10px;
+        color: rgb(238, 225, 225);
+        background-color: rgb(62, 62, 236);
+        font-weight: bold;
+        font-size: 13px;
+        margin: 0 12px;
+        border: none;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(240, 237, 237);
+        color: rgb(62, 62, 236);
+    }
+
+    .social-media{
+        margin-left: -30px;
+    }
+
+    .social-media a{
+        list-style: none;
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 2.32rem;
+        height: 2.3rem;
+        background: transparent;
+        border: .15rem solid rgb(19, 206, 253);
+        border-radius: 50%;
+        font-size: 2rem;
+        color: rgb(34, 248, 255);
+        margin: 1.5rem 0.85rem 1.5rem 0;
+        transition: .3s ease;
+        margin-top: 90px;
+        margin-left: -10px;
+    }
+    .social-media a:hover{
+        background-color:  rgb(46, 208, 248);
+        color: rgb(49, 48, 48);
+        box-shadow: 0 0 1rem rgb(195, 217, 224);
+    }
+
+    .hello{
+        font-size: 22px;
+        color: white;
+        font-family: 'Source Code Pro', monospace;
+    }
+    .name{
+         font-size: 35px;
+         font-weight: bold;
+         margin-left: -30px;
+         font-family: 'Bacasime Antique', serif;
+         color: whitesmoke;
+    }
+    #element{
+        font-size: 15px;
+        margin-top: 8px;
+        margin-left: -30px;
+        color: rgb(247, 231, 231);
+        font-family: 'Source Code Pro', monospace;
+    }
+    .divpic img{
+        height: 20vh;
+        width: 17vh;
+        margin-top: 180px;
+        margin-right: 7px;
+        background-image: none;
+        border: 1px solid rgb(250, 249, 201);
+        border-radius: 70px;
+    }
+
+    .mainabout{
+        background-image: url("https://img.freepik.com/free-photo/dark-background_1048-3848.jpg");
+         width: 100%;
+         height: 1700px;
+     }
+     .mainabout h2{
+         text-align: center;
+         cursor: pointer;
+         margin-top: 50px;
+         font-size: 2.1rem;
+         border: 1px solid rgb(207, 134, 134);
+         color: whitesmoke;
+         padding: 25px;
+         border-radius: 55px;
+         
+     }
+     
+    
+    .intro{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .skillcontainer{
+        padding: 10px;
+        margin-top: 200px;
+    }
+    .skillitem{
+        margin: 15px;
+    }
+    .skill p{
+        text-align: end;
+    }
+
+    .intro .aboutimg img{
+        background-color: rgb(214, 204, 191);
+        width: 350px;
+        height: 400px;
+        margin-top: 230px;
+        border-radius: 15px;
+        margin-right: 20px;
+    }
+    .abouttext{
+        width: 100%;
+        height: 400px;
+       margin-top: 40px;
+       margin-right: 170px;
+        
+        font-family: 'Source Code Pro', monospace;
+    }
+    .mainabout h3{
+         
+        font-size: 2rem;
+        text-align: center;
+        justify-content: space-evenly;
+        
+    }
+    .mainabout .abouttext p{
+        color: rgb(247, 244, 244);
+        width: 65%;
+        font-size: 18px;
+       text-align: center;
+       align-items: center;
+      
+    }
+
+    
+/** contact me **/
+.maincontact{
+    background-image: url("https://www.cloud4c.com/vn/sites/vn/files/2022-07/cloud4c-company-contact-1Desktop.jpg");
+
+}
+
+.contactform{
+    font-family: 'Bacasime Antique', serif; 
+    padding: 0 10px;
+    padding-top: 100px;
+}
+.contactform h1{
+    text-align: center;
+    padding: 10px 0;
+}
+.contactform form div{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+}
+.contactform form div input{
+    width: 39vh;
+   border-radius: 5px;
+   cursor: pointer;
+   margin: 6px 0 0 0;
+   color: rgb(0, 0, 0);
+   padding: 5px;
+   border: 1.8px solid rgb(202, 13, 13);
+}
+.contactform form div input:hover{
+    background-color: rgb(232, 240, 158);
+    
+}
+.contactform form .mb-3 label{
+    font-size: 1.3rem;
+}
+#emailHelp{
+    font-size: 14px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 14px;
+    margin: 3px 0;
+
+}
+.btn-sm{
+    margin-left: 230px;
+    margin-top: 10px;
+}
+   
+   
+/** projects **/
+
+
+.mainproject{
+    width: 100%;
+    height: 1550px;
+   
+}
+.mainproject h2{
+    text-align: center;
+    border: 2px solid rgb(210, 238, 50);
+    border-radius: 25px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+.box{
+    width: 90%;
+    height: 290px;
+    background-color: rgb(241, 228, 228);
+    border-radius: 20px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+    
+}
+.box:hover{
+    background-color: rgb(141, 231, 201);
+    border: 3px solid rgb(157, 219, 41);
+}
+.box h3{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+.box p{
+    padding: 10px;
+    padding-left: 20px;
+    color: black;
+}
+.box li{
+    text-decoration: underline;
+    list-style: none;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.box li:hover{
+    color: red;
+    font-size: 1.2rem;
+}
+.unbox{
+    width: 88%;
+    height: 170px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 22px;
+    border-radius: 20px;
+    
+}
+.unbox:hover{
+    border: 2px solid rgb(255, 145, 0);
+}
+.project{
+   flex-direction: column;
+
+}
+
+
+
+
+.footer{
+    background-color:black;
+    color: white;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .row{
+    display: inline;
+    text-align: center;  
+}
+
+.footer .row .rowthird{
+    color: orange;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 4px;
+    padding: 10px;
+    
+}
+.footer .row .rowthird p{
+    margin: 5px;
+}
+.footer .row .rowthird i{
+    color: orange;
+}
+.footer .row .rowsecond{
+    margin-top: 30px;
+}
+.footer .row .rowsecond a{
+   display: inline;
+   align-items: center;
+   
+}
+
+.flex:hover{
+    color: orange;
+}
+
+
+}
+#element{
+    font-size: 25px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+    </style>
+ 
+</head>
+<body>
+    
+    <div class="container">
+
+
+        <div class="navigation flex">
+            <div class="logo">
+                <img src="https://thumbs.dreamstime.com/b/v-letter-logo-design-black-background-v-creative-initials-letter-logo-concept-v-letter-design-v-letter-logo-design-black-220322173.jpg" alt="">
+            </div>
+            <div class="navbar flex" id="navbar">
+                <div class="leftnav flex">
+                    <ul class="flex menu">
+                        <li><a href="#home" style="list-style: none; text-decoration: none; color: white; ">Home</a></li>
+                        <li><a href="#about" style="list-style: none; text-decoration: none; color: white;">About</a></li>
+                        <li><a href="#contact" style="list-style: none; text-decoration: none; color: white;">Contact</a></li>
+                        <li><a href="#project" style="list-style: none; text-decoration: none; color: white;">Projects</a></li>
+                        <li>My Gallery</li>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="togglebtn" onclick="toggle()">&#9776;</span>
+        </div>
+    
+        
+        <div class="main">
+         
+            <div   class="infocontainer">
+                <div class="divinfo">
+                    <div class="hello">Hii I am </div>
+                    <div class="name">vishal jaiswal</div>
+                    <div class="about">Developer</div>
+                    <span id="element"></span>
+
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                       
+                    </div>
+
+                    <div class="buttons">
+                        <a href="https://wa.me/7463021419"><button class="btn">Massage</button></a>
+                        <a href="tel:+917463021419">
+                           <button class="btn">Call me</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="divpic" ><img src="WhatsApp Image 2023-07-06 at 7.53.39 AM.jpeg" alt=""></div>
+            </div>
+          
+        
+        
+        <div id="about" class="mainabout">
+            <h2>ABOUT ME</h2>
+            <div class="intro">
+                    <div class="aboutimg" ><img src="WhatsApp Image 2023-07-06 at 7.53.39 AM.jpeg" alt=""style="box-shadow: 0 0 2rem rgb(38, 172, 212);"></div>
+                    <div class="abouttext">
+                        <div class="hello"><h3>Hello, I am <b>Vishal jaiswal</b>,</h3></div>
+                        <p>A <b>Front-End Developer</b>, I love to Develop responsive and creative websites and passionate about chalenges, Living in Hajipur, Patna, India. I am a student of <b>BCA</b> UG course from <b>BEEDI college</b>. </p>
+                        <p>I believe in <b>quality</b> not quantity. I take every work as chalenge.Because chalenge is the <b>way</b> of success</p>
+                        <p>I vision to work hard and work with a big <b>company</b>.</p>
+                    </div>
+               
+            </div>
+
+                 
+            <div class="skillcontainer" style="color: white;">
+                <h2 style="margin-top: 150px;">skills</h2>
+                <div class="skillitem">HTML : <div class="skill" style="background-color: red; color: rgb(0, 0, 0); width: 340px;"><p style="text-align: end;">90%</p></div></div>
+                <div class="skillitem">CSS : <div class="skill" style="background-color: rgb(255, 208, 0); color: rgb(0, 0, 0); width:285px;"><p>80%</p></div></div>
+                <div class="skillitem">Bootstrap : <div class="skill" style="background-color: rgb(0, 255, 13); color: rgb(14, 13, 13); width: 340px;"><p>90%</p></div></div>
+                <div class="skillitem">Javascript : <div class="skill" style="background-color: rgb(132, 0, 255); color: rgb(0, 0, 0); width: 190px;"><p>50%</p></div></div>
+                <div class="skillitem">Java : <div class="skill" style="background-color: rgb(255, 0, 221); color: rgb(0, 0, 0); width: 40px;"><p>20%</p></div></div>
+            </div>
+        </div>
+
+
+        <div id="contact" class="maincontact">
+            <div class="contactform">
+                <h1>Get in thouch</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientname" class="form-label" style="color: whitesmoke;">Name :</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name*" required>
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label" style="color: whitesmoke;">Email address :</label>
+                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Email Address*" required>
+                      <div id="emailHelp" class="form-text" style="color: rgb(255, 161, 169);">We'll never share your email & phone with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label" style="color: whitesmoke;">Message :</label>
+                      <input type="text-area" class="form-control" id="clientphone" placeholder="Message*" required>
+                    </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient" style="color: whitesmoke;">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                  </form>
+            </div>
+ 
+        </div>
+
+
+        <div class="mainproject">
+            <h2>Projects</h2>
+            <div class="project">
+     
+    
+                <div class="box1 box">
+                    <a href="/index.html">
+                    <div class="probox1 unbox">
+                        <img src="https://i.wfcdn.de/teaser/660/42143.jpg" alt="" width="278px" height="150px" style="border-radius: 20px;">
+                    </div>
+                </a>
+                    <h3>Amazon</h3>
+                    <p>The websisite of Amazon, which is code by HTML and CSS.</p>
+                     <li>See his website</li>
+                </div>
+    
+                <div class="box2 box">
+                    <div class="probox2 unbox">
+                        <img src="https://mobilemarketingreads.com/wp-content/uploads/2020/09/google-updates-play-store-billing-policies.jpg" alt="" width="100%" height="99%" style="border-radius: 20px;">
+                    </div>
+                    <h3>Google</h3>
+                    <p>The websisite of Google, which is code by HTML and CSS.</p>
+                     <li>See this websisite</li>
+                </div>
+    
+                <div class="box3 box">
+                    <div class="probox3 unbox">
+                        <img src="https://www.cnet.com/a/img/resize/f92ae43457ac52e0b761737181264a82aa0765bb/hub/2019/02/04/8311b046-6f2b-4b98-8036-e765f572efad/msft-microsoft-logo-2-3.jpg?auto=webp&fit=crop&height=675&width=1200" alt="" width="100%" height="99%" style="border-radius: 20px;">
+                    </div>
+                    <h3>Microsoft</h3>
+                    <p>The websisite of Microsoft, which is code by HTML and CSS.</p>
+                     <li>See this websisite</li>
+                </div>
+                <div class="box3 box">
+                    <div class="probox3 unbox">
+                        <img src="myimages/logo2.png" alt="" width="99%" height="100%" style="border-radius: 20px;">
+                    </div>
+                    <h3>artist__nisha__</h3>
+                    <p>The websisite of artist__nisha__, which is code by HTML, CSS, and Javascript.</p>
+                     <li>See this websisite</li>
+                </div>
+                
+    
+            </div>
+        </div>
+            
+    </div>
+
+
+    <div class="footer">
+        <h2 style="text-align: center; height: 40px;">Back to top</h2> <hr>
+        <div class="row">
+             
+            <div class="rowsecond">
+                <a href="https://www.instagram.com/vishaljaiswal2343/?hl=da" target="_blank"><img src="https://i.pinimg.com/736x/21/d6/7f/21d67f1d6b3be5bb2e39395311c77fc6.jpg"  style="width: 50px; ">
+                <a href="#"><img src="https://1000logos.net/wp-content/uploads/2016/11/facebook-symbol.jpg"  style="width: 50px;"></a> 
+                <a href="#"><img src="https://icon-library.com/images/twitter-icon-black-background/twitter-icon-black-background-25.jpg" alt="" style="width: 80px;"></a>            
+                 <a href="#"><img src="https://i.pinimg.com/736x/f5/8b/98/f58b982a1361977a16651ef5b395dd9d.jpg" alt="" style="width: 50px; "></a>
+                <a href="#"><img src="https://seeklogo.com/images/W/whatsapp-logo-F5E7ED09FB-seeklogo.com.png" alt="" style="width: 50px;"></a>
+            </div>
+            <div class="rowthird">
+                : patna,Bihar IND 
+                <br>: vkjaiswal1419@Gmail.com 
+                <br>: +91 7463021419
+            </div>
+        </div>
+
+
+  
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Front-end</i> Developer.', '&amp; a video creater.', 'a graphics designer.','A Developer'],
+      typeSpeed: 60,
+    });
+  </script>
+         
+    </body>
+    <script>
+        let navbar = document.getElementById("navbar")
+
+const toggle =() =>{
+    if(navbar.style.display =="none"){
+        navbar.style.display = "block"
+        navbar.style.textAlign = "left"
+    }
+
+    else{
+        navbar.style.display = "none"
+    }
+}
+    </script>
+    
+    </html>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+    
